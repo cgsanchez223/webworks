@@ -1,0 +1,29 @@
+1. What is HTTP?
+Hyper Text Transfer Protocol - transfers data between server and client
+
+2. What is URL?
+Uniform Resource Locator - an address for websites
+
+3. What is a DNS?
+Domain Name System - converts URLs to IP addresses
+
+4. What is a query string?
+Allows you to give instructions to the website. Allows you to pass key-value pairs into the URL.
+
+5. List two HTTP Verbs and their use cases:
+GET - Entering URL in browser, clicking links, and form submission. Gets data from server.
+POST - Sends data to sever. Arguments sent as body of request. Change data.
+
+6. What is an HTTP request?
+A request from a client to a server which follows the HTTP protocol. Such as using the search bar on a website.
+
+7. What is an HTTP response?
+A response from a server to a client that did the HTTP protocol. Gives back results from a search.
+
+8. What is an HTTP header? Give examples
+In VSCode when coding using HTML, the header contains information about the parameters of the page that is usually not visible. The visible portion is the title which appears on the tab of the page.
+Types of request headers are host, user-agent, cookies, and cache-control. Response headers are content-type, last-modified, set-cookie, and cache-control.
+
+9. What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+The DNS converts the URL into a IP address. The IP address receives a request for header information. This can include cookies, cache, user name info and host info. The server will then send a response code to allow or deny access. The browser makes a DOM file and interprets HTML, images, CSS or other languages. The browser sends request for each resource and receives back responses for each of them.
